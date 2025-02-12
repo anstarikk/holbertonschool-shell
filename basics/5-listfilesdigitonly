@@ -1,2 +1,2 @@
-#!/bin/bash
-ls -l | awk '{if ($5 ~ /^[0-9]+$/) print $0}'
+i#!/bin/bash
+ls -la --numeric-uid-gidd
