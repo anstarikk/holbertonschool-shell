@@ -1,4 +1,2 @@
 #!/bin/bash
-ls -la .      # Liste les fichiers du répertoire courant (avec les fichiers cachés)
-ls -la ..     # Liste les fichiers du répertoire parent (avec les fichiers cachés)
-ls -la /boot  # Liste les fichiers du répertoire /boot (avec les fichiers cachés) 
+ls -la . ../boot
